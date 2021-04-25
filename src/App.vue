@@ -32,6 +32,26 @@ body {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+@media (max-width: 375px) {
+  .header {
+    font-size: 2.5rem;
+  }
+  #subheader {
+    font-size: 1.8rem !important;
+  }
+} 
+
+@media (max-width: 272px) {
+  .header {
+    font-size: 2rem;
+  }
+  #subheader {
+    font-size: 1.3rem !important;
+    margin-top: -1rem !important;
+  }
+} 
+
 @media (min-width: 800px) {
   body {
     margin: 0 12rem 0 12rem;
